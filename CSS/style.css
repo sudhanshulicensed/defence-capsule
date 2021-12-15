@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+/* Header */
+
+.socialsupport{
+    text-align: center;
+}
+
+.socialsupport li{
+    display: inline;
+    margin-left: 1rem;
+}
+
+
+.socialsupport p{
+    text-align: center;
+} 
+
+
+/* Navigation */
+
+.nav-element li{
+    display: inline;
+}
+
+.nav-element li span{
+    
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+/* Main-Content */
+.main{
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+
+.main-head{
+    text-align: center;
+}
+
+.main-head-content{
+    width: auto;
+    height: 100px;
+    background-color: lime;
+}
+
+.top-powers,
+.in-trending,
+.hot-comparison{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    background-color: limegreen;
+}
+
+.section-heading{
+    margin-top: 1rem;
+    text-align: center;
+    background-color: peachpuff;
+}
+
+.card{
+    width: 150px;
+    height: 140px;
+    background-color: plum;
+    margin-left: 5px;
+}
+
+.card-image{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    /* left: 10px; */
+}
+
+.card-image img{
+    width: 100px;
+    width: 100px;
+}
+
+.card-title{
+    border: 2px solid purple;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    margin: 0px 10px;
+}
+/* Footer */
+
+.footer{
+    margin-top: 10px;
+    height: 180px;
+    background-color: purple;
+
+}
+
+/* Responsiveness */
