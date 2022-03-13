@@ -60,7 +60,7 @@ body{
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
-    background-color: limegreen;
+    /* background-color: limegreen; */
 }
 
 .section-heading{
